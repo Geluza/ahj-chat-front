@@ -40,3 +40,82 @@
     text-align: center;
     color: green;
 }
+
+.chat_page {
+    border: 2px solid black;
+    width: 70%;
+    min-height: 500px;
+}
+
+.chat_list {
+    border: 2px solid grey;
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 3%;  
+    height: 40%;
+}
+
+.users {
+    list-style-type: none;
+}
+
+.user {
+    margin-top: 10px;
+}
+
+.name {
+    margin-left: 5px;
+}
+
+.chat_window {
+    border: 2px solid grey; 
+    border-radius: 20px;
+    margin-top: 5%;
+    width: 50%;
+    position: relative;
+}
+
+.chat_page {
+    display: flex;
+    display: none;
+}
+
+.user_message {
+    margin-top: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.user_name {
+    color: green;
+}
+
+.your_message {
+    margin-top: 10px;
+    margin-left: 60%;
+}
+
+.your_name {
+    color: red;
+}
+
+.text_message {
+    margin-top: 5px;
+}
+
+.field_button {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+.message_input {
+    width: 300px;
+}
+.enter_message {
+    background-color: green;
+    width: 50px;
+    font-weight: bold;
+
+}
